@@ -4,7 +4,7 @@ Version: 1.0.1
 Release: 1%{?dist}
 Group:   Applications/Internet 
 License: Distributable
-URL: https://github.com/johnkim76/qci-sos-plugin
+URL: https://github.com/fusor/qci-sos-plugin
 Source0: %{name}-%{version}.tar.gz
 
 Requires: python >= 2.3
@@ -29,6 +29,4 @@ cp -a qci.py %{buildroot}%{python_sitelib}/sos/plugins/
 %{python_sitelib}/sos/plugins/qci.py*
 
 %changelog
-* Thu Jun 16 2016 jkim <johnkim76@gmail.com> 1.0.1-1
-- new package built with tito
 
