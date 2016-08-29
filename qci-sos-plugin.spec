@@ -7,6 +7,7 @@ License: Distributable
 URL: https://github.com/fusor/qci-sos-plugin
 Source0: %{name}-%{version}.tar.gz
 
+BuildRequires: python-devel
 Requires: python >= 2.3
 Requires: sos
 
